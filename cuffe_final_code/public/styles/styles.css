@@ -1,0 +1,113 @@
+nav {
+	width: auto;
+	background-color: #0095ca;
+	overflow: hidden;
+	font-family: "Helvetica Neue Light","HelveticaNeue-Light","Helvetica Neue",Calibri, Helvetica,Arial;
+  }
+
+nav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+nav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+nav a.active {
+	background-color: #04AA6D;
+	color: white;
+  }
+h1 {
+	font-family: "Helvetica Neue Light","HelveticaNeue-Light","Helvetica Neue",Calibri, Helvetica,Arial;
+	color: #0095ca;
+	font-weight: 450;
+	
+} 
+form {
+	font-family: "Helvetica Neue Light","HelveticaNeue-Light","Helvetica Neue",Calibri, Helvetica,Arial;
+	color: #FFFFFF;
+}
+#portaltable {
+	background-color: #0095ca;
+	table-layout: fixed;
+	width: 1600px;
+}
+#portalhead {
+	table-layout: fixed;
+	width: 1600px;
+}
+#portalhead th {
+	width: 95px;
+}
+#portalhead, #portalhead th{
+	font-family: "Helvetica Neue Light","HelveticaNeue-Light","Helvetica Neue",Calibri, Helvetica,Arial;
+	border: 2px solid;
+	border-color: #0095ca;
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 2px;
+}
+textarea {
+	resize: none;
+}
+
+#portaltable td {
+	table-layout: fixed;
+	width: 100px;
+	font-family: "Helvetica Neue Light","HelveticaNeue-Light","Helvetica Neue",Calibri, Helvetica,Arial;
+	text-align: left;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	text-wrap: overflow;
+}
+header img {
+	width: 75%;
+	height: auto;
+}
+header table {
+	width: 100%;
+}
+header td {
+	width: 50%;
+}
+fieldset {
+	padding: 20px;
+	border: none;
+	background-color:	#0095ca;
+	width: 500px;
+	margin: 0 auto;
+
+}
+#symptoms {
+	height: 50px;
+	width: 200px;
+	min-width: 200px;
+	min-height: 50px;
+	max-width: 200px;
+	max-height: 50px;
+}
+#submit {
+	font-family: "Helvetica Neue Light","HelveticaNeue-Light","Helvetica Neue",Calibri, Helvetica,Arial;
+	text-align: center;
+	background-color: #0095ca;
+	color: #FFFFFF;
+	border-radius: 12px;
+	font-size: 35px;
+	border: none;
+	padding: 5px;
+}
+
+#bottom {
+margin: 0;
+position: absolute;
+left: 43%;
+}
